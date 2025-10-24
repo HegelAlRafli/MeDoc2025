@@ -52,31 +52,37 @@ class AppThemeData {
       ),
       textTheme: TextTheme(
         headlineLarge: GoogleFonts.poppins(
+          // headline1
           color: Colors.white,
           fontSize: 20.sp,
           fontWeight: FontWeight.w600,
         ),
         headlineMedium: GoogleFonts.poppins(
+          // headline2
           color: Colors.black,
           fontSize: 20.sp,
           fontWeight: FontWeight.w500,
         ),
         headlineSmall: GoogleFonts.poppins(
+          //headline3
           color: Colors.black,
           fontSize: 18.sp,
           fontWeight: FontWeight.w500,
         ),
         bodyLarge: GoogleFonts.poppins(
+          //headline4
           color: Colors.black,
           fontSize: 14.sp,
           fontWeight: FontWeight.w500,
         ),
         bodyMedium: GoogleFonts.poppins(
+          // bodyText1
           color: ColorValue.greyTextColor,
           fontSize: 14.sp,
           fontWeight: FontWeight.w400,
         ),
         bodySmall: GoogleFonts.poppins(
+          //bodyText2
           color: ColorValue.greyTextColor,
           fontSize: 12.sp,
         ),
